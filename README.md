@@ -4,7 +4,7 @@
 
 # Codeon
 
-Codeon is a **smart contract auditing and analysis platform** designed to help developers evaluate the **security, performance, and compliance** of their smart contracts before deployment.  
+Codeon is a **smart contract auditing and analysis tool** designed to help developers evaluate the **security, performance, and compliance** of their smart contracts before deployment.  
 
 It provides:
 - **Multi-language support** (Solidity, Vyper, Rust, Move, Cairo, Go, etc.).
