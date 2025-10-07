@@ -5,16 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Codeon — Smart Contract Auditing</title>
 
-  <!-- App Icon (favicon) -->
   <link rel="icon" type="image/jpeg" href="Codeonlogo.jpg" />
 
-  <!-- Tailwind CSS (CDN for hackathon speed) -->
+  <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
   <!-- Optional: preload brand fonts -->
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet"> 
   <style>
-    /* Optional subtle particle/grid background */
+    
     body {
       background-color: #0D1117;
       background-image:
@@ -29,8 +28,8 @@
   <!-- Navbar -->
   <header class="flex flex-col md:flex-row items-center justify-between px-6 md:px-12 py-4 border-b border-gray-800">
     <div class="flex items-center space-x-3 mb-3 md:mb-0">
-      <!-- Replace with your shield/circuit logo -->
-      < src="Codeonlogo.jpg" alt="Codeon Logo" class="h-10 w-10" />
+      
+      <img src="Codeonlogo.jpg" alt="Codeon Logo" class="h-10 w-10" />
       <span class="text-2xl font-extrabold tracking-wide text-gray-100">Codeon</span>
     </div>
     <nav class="flex items-center space-x-4">
@@ -44,16 +43,16 @@
 
   <!-- Hero Section -->
   <section class="relative text-center py-14 md:py-20 px-6">
-    <!-- Background watermark logo (subtle) -->
-    < src="Codeonlogo02.png" alt="" aria-hidden="true"
-         class="pointer-events-none select-none absolute opacity-10 top-6 right-6 w-28 md:w-44" />
+    <!-- Background watermark logo -->
+    <img src="Codeonlogo02.png" alt="" aria-hidden="true"
+         class="pointer-events-none select-none absolute opacity-10 top-6">
 
     <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4">
       Automated Smart Contract Auditing
     </h1>
     <p class="text-base md:text-lg text-gray-400 max-w-2xl mx-auto mb-8">
       Security, performance, and compliance checks in one click.
-    </p>
+    </p><br>
     <a href="#upload" class="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-500 rounded-md text-white font-semibold">
       Run Your First Audit
     </a>
@@ -63,7 +62,7 @@
   <section id="upload" class="max-w-3xl mx-auto py-12 px-6">
     <div class="bg-[#0F1521] border-2 border-dashed border-gray-700 rounded-xl p-8 text-center shadow-lg">
       <div class="flex items-center justify-center mb-6 space-x-3">
-        < src="Codeonlogo.jpg" alt="Codeon Logo" class="h-8 w-8" />
+        <img src="Codeonlogo.jpg" alt="Codeon Logo" class="h-8 w-8" />
         <h2 class="text-xl md:text-2xl font-bold">Upload your contract</h2>
       </div>
 
@@ -83,9 +82,9 @@
       <div class="flex flex-col md:flex-row justify-center items-center gap-4 mt-6">
         <select class="bg-[#0C121D] text-gray-200 px-4 py-2 rounded-md border border-gray-700 focus:outline-none focus:ring-2 focus:ring-blue-600">
           <option>Solidity</option>
-          <option disabled>Vyper (coming soon)</option>
-          <option disabled>Rust (coming soon)</option>
-          <option disabled>Move (coming soon)</option>
+          <option disabled>Vyper</option>
+          <option disabled>Rust</option>
+          <option disabled>Move</option>
         </select>
 
         <button id="runAuditBtn"
@@ -101,7 +100,7 @@
       <!-- Loading state -->
       <div id="loading" class="hidden mt-6">
         <div class="inline-flex items-center gap-3 text-gray-300">
-          < src="Codeonlogo.jpg" alt="" class="h-6 w-6 animate-pulse opacity-80" />
+          <img src="Codeonlogo.jpg" alt="" class="h-6 w-6 animate-pulse opacity-80" />
           <span>Running analysis…</span>
         </div>
       </div>
@@ -111,7 +110,7 @@
   <!-- Results Section -->
   <section id="results" class="max-w-5xl mx-auto py-12 px-6">
     <div class="flex items-center space-x-3 mb-6">
-      < src="Codeonlogo02.png" alt="Codeon Logo" class="h-8 w-8" />
+      <img src="Codeonlogo.jpg" alt="Codeon Logo" class="h-8 w-8" />
       <h2 class="text-2xl font-bold text-white">Audit Results</h2>
     </div>
 
@@ -161,10 +160,11 @@
   <!-- Download Section -->
   <section class="text-center py-12">
     <button class="flex items-center justify-center gap-2 px-8 py-3 bg-blue-600 hover:bg-blue-500 rounded-md text-white font-semibold mx-auto">
-      < src="Codeonlogo.jpg" alt="Codeon App Icon" class="h-5 w-5" />
+      <img src="Codeonlogo.jpg" alt="Codeon App Icon" class="h-5 w-5" />
       <span>Download PDF Report</span>
     </button>
     <p class="text-xs text-gray-500 mt-2">Includes executive summary and detailed findings</p>
+
   </section>
 
   <!-- Footer -->
@@ -219,5 +219,6 @@
       setTimeout(() => loadingEl.classList.add('hidden'), 2000); // simulate
     });
   </script>
-</body>
+  </body>
 </html>
+                                    
