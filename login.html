@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - Codeon</title>
+  <link rel="shortcut icon" type="image/x-icon" href="Codeonlogo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="relative min-h-screen flex items-center justify-center bg-black overflow-hidden">
+
+  <!-- Blurred background logo -->
+  <img src="Codeonlogo.png" 
+       alt="Codeon Logo" 
+       class="absolute inset-0 m-auto w-[650px] h-[650px] object-contain opacity-50 blur-lg" />
+
+  <div class="relative z-10 flex w-full max-w-5xl rounded-xl overflow-hidden shadow-2xl">
+    
+    <!-- Left section -->
+    <div class="w-1/2 bg-gray-900/60 flex flex-col justify-center items-center text-center p-10">
+      <h1 class="text-4xl font-bold text-white">Welcome to <span class="text-blue-400">Codeon.</span></h1>
+      <p class="mt-4 text-xl text-white font-semibold">Let’s Secure Your Smart Contracts.</p>
+      <p class="mt-2 text-gray-300">
+        You’re moments away from unlocking deep insights, precision audits, and total confidence in your code — powered by 
+        <span class="font-bold text-blue-400">Codeon</span>.
+      </p>
+    </div>
+
+    <!-- Right section -->
+    <div class="w-1/2 bg-gray-950/70 flex flex-col justify-center items-center p-10">
+      <div class="w-full max-w-sm">
+        <!-- Logo + Welcome text -->
+<div class="flex flex-col items-center justify-center mb-6">
+  <img src="codeonbg.png" 
+       alt="Codeon Logo" 
+       class="w-50 h-50 object-contain" />
+  <h2 class="text-sm uppercase text-gray-400">Welcome to Codeon</h2>
+</div>
+
+        <h2 class="text-2xl font-bold text-white">Connect with <span class="text-blue-400">Codeon ⚙️</span> </h2>
+        <p class="text-gray-400 mb-2">Your audit workspace awaits.</p>
+        <p class="text-gray-500 text-sm mb-6">
+          Sign in to begin your analysis and experience seamless smart contract security.
+        </p>
+
+        <!-- Google button -->
+        <button class="w-full flex items-center justify-center space-x-2 bg-gray-800 hover:bg-gray-700 text-white py-2 rounded-md mb-4">
+          <img src="https://www.svgrepo.com/show/355037/google.svg" alt="Google" class="w-5 h-5" />
+          <span>Sign in with Google</span>
+        </button>
+
+        <div class="flex items-center my-4">
+          <hr class="flex-grow border-gray-700" />
+          <span class="px-2 text-gray-500 text-sm">OR CONTINUE WITH</span>
+          <hr class="flex-grow border-gray-700" />
+        </div>
+
+        <!-- Form -->
+        <form action="index.html" method="GET" class="space-y-4">
+          <input type="email" placeholder="Authorized Email" class="w-full px-4 py-2 rounded bg-gray-800 text-white focus:outline-none" required />
+          <input type="password" placeholder="Enter your password" class="w-full px-4 py-2 rounded bg-gray-800 text-white focus:outline-none" required />
+          <button type="submit" class="w-full bg-white text-black font-semibold py-2 rounded hover:bg-gray-200">
+            Access Codeon Workspace →
+          </button>
+        </form>
+
+        <p class="text-gray-400 text-sm mt-6 text-center">
+          New here?
+          <a href="signup.html" class="text-blue-400 hover:underline">Create Account</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
