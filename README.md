@@ -7,7 +7,7 @@
 Codeon is a **smart contract auditing and analysis tool** designed to help developers evaluate the **security, performance, and compliance** of their smart contracts before deployment.  
 
 It provides:
-- **Multi-language support** (Solidity, Vyper, Rust, Move, Cairo, Go, etc.).
+- **Multi-language support** (Solidity, Vyper, Rust, Move, Cairo). 
 - **Automated vulnerability scanning** and performance checks.
 - **Professional PDF audit reports** with charts, severity levels, and recommendations.
 - **Simple and intuitive frontend** for uploading contracts and downloading results.  
@@ -31,7 +31,6 @@ It provides:
   - Rust (Solana, Polkadot)
   - Move (Aptos, Sui)
   - Cairo (StarkNet)
-  - Go (Cosmos SDK, Hyperledger)
 
 - **Audit Report Generation**
   - Export analysis results in **sleek PDF format**.
